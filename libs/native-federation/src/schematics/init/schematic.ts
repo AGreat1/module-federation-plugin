@@ -130,7 +130,7 @@ function updateWorkspaceConfig(
   projectConfig.architect.esbuild = originalBuild;
 
   projectConfig.architect.build = {
-    builder: '@angular-architects/native-federation:build',
+    builder: '@fork-fork/native-federation:build',
     options: {},
     configurations: {
       production: {
@@ -163,7 +163,7 @@ function updateWorkspaceConfig(
   projectConfig.architect['serve-original'] = projectConfig.architect.serve;
 
   projectConfig.architect.serve = {
-    builder: '@angular-architects/native-federation:build',
+    builder: '@fork-fork/native-federation:build',
     options: {
       target: `${projectName}:serve-original:development`,
       rebuildDelay: 0,

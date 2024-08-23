@@ -1,19 +1,19 @@
 {
-  "name": "@angular-architects/native-federation",
-  "version": "17.1.6",
+  "name": "@fork-fork/native-federation",
+  "version": "17.3.12",
   "main": "src/index.js",
   "generators": "./collection.json",
   "builders": "./builders.json",
   "schematics": "./collection.json",
   "license": "MIT",
+  "description": "This is a fork of the @angular-architects/native-federation package by Manfred Steyer, with support for Angular i18n.",
   "author": {
-    "name": "Manfred Steyer",
-    "url": "http://www.angulararchitects.io"
+    "name": "refactorTractor"
   },
   "homepage": "https://github.com/angular-architects/module-federation-plugin/tree/main/libs/native-federation",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angular-architects/module-federation-plugin"
+    "url": "https://github.com/refactorTractor/module-federation-plugin"
   },
   "dependencies": {
     "@babel/core": "^7.19.0",

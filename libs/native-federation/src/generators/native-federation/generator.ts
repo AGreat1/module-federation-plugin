@@ -66,7 +66,7 @@ export default async function (
     sourceRoot: `${normalizedOptions.projectRoot}/src`,
     targets: {
       build: {
-        executor: '@angular-architects/native-federation:build',
+        executor: '@fork-fork/native-federation:build',
       },
     },
     tags: normalizedOptions.parsedTags,
